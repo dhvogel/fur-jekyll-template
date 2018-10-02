@@ -1,6 +1,7 @@
 ---
 title: Bowl1
-categories: sdf
+categories:
+- sdf
 ---
 
 test
