@@ -6,13 +6,8 @@ description_markdown: |-
 
 
   Hotter den diz bowl.
-garment_type: 
 price: '80.00'
-sku: bowl2
-stock: 10
 styles:
-- name: White
-  color: "#ffffff"
-  image: "/images/products/bowl2/white.jpg"
+  - image: /images/screen-shot-2018-09-28-at-8.38.46-am.png
 ---
 
