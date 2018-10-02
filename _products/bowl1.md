@@ -1,17 +1,18 @@
 ---
+title: Bowl1
 name: Diz Bowl
-description_markdown: >-
+description_markdown: |-
   Diz Bowl hot
 
 
-
   Real hot.
-garment_type:
+garment_type: 
 price: '60.00'
 sku: bowl1
 stock: 10
 styles:
-  - name: Black
-    color: '#000000'
-    image: /images/products/bowl1/black.jpg
+- name: Black
+  color: "#000000"
+  image: "/images/products/bowl1/black.jpg"
 ---
+
