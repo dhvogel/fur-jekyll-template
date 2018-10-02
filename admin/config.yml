@@ -1,0 +1,24 @@
+backend:
+  name: github
+  repo: dhvogel/fur-jekyll-template
+
+media_folder: "images"
+
+collections: # A list of collections the CMS should be able to edit
+  - name: "product" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Product" # Used in the UI, ie.: "New Post"
+    folder: "_products" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields: # The fields each document in this collection haves
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Product Name", name: "name", widget: "string"}
+      - {label: "Description", name: "description_markdown", widget: "markdown"}
+      - {label: "Price", name: "price", widget: "string"} # TODO: Add image
+      - label: Styles
+        name: styles
+        widget: list
+        fields:
+          - {label: "Image", name: "image", widget: "image"}
+    meta: # Meta data fields. Just like fields, but without any preview element
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
