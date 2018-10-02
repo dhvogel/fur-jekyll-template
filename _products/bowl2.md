@@ -8,6 +8,6 @@ description_markdown: |-
   Hotter den diz bowl.
 price: '80.00'
 styles:
-  - image: /images/uploads/america.jpg
+- image: "/images/uploads/america.jpg"
 ---
 
